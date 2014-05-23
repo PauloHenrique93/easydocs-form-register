@@ -11,13 +11,39 @@ form input{
 }
 input.botaoForm{
 	padding:5px;
-	background-color:#036;
+	/*background-color:#036;*/
 	border:1px solid #000;
-	color:#fff;
+	/*color:#fff;*/
+	background-color: rgba(0,0,0,0.4);
+	opacity: 1;
+	transition: opacity 1s;
 	font-weight:bold;
+	margin-left: 54%;
 
 }
-.area{
-margin-left:25%; 
-margin-right:25%;
+
+input.botaoForm:hover{
+	
+	background-color:#16E038;
+}
+
+/*.area{
+	margin-left:25%; 
+	margin-right:25%;
+	background-color:#ffc;
+}*/
+
+fieldset.formulario{
+		float:top;
+	margin-left:50px;
+	padding-top:12px;
+	padding-bottom:0px;
+	width:330px;
+	text-align:center;
+	border:solid 1px #FFFFFF;
+}
+
+
+body{
+background-color:#FFFFFF;
 }
